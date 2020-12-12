@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item{
+    @apply bg-black text-white p-1 text-center rounded border-2 border-black;
+}
+
+.nav-item.active{
+    @apply bg-gray-100 text-black 
+}
+
+.table-container{
+    @apply border-2 border-black rounded shadow-lg
+    
+}
+
+.table-container .table-row:nth-child(even){
+    @apply bg-gray-100
+}
+
+.table-container .table-row:nth-child(odd){
+    @apply bg-gray-300
+}
